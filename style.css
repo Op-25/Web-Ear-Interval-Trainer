@@ -1,28 +1,38 @@
-/* Custom styles for disabled buttons */
 .disabled-button {
     opacity: 0.5;
     cursor: not-allowed;
     pointer-events: none;
 }
-/* Custom scrollbar for a nicer look */
+
 body::-webkit-scrollbar {
     width: 8px;
 }
+
 body::-webkit-scrollbar-track {
     background: #1f2937;
 }
+
 body::-webkit-scrollbar-thumb {
     background: #5f58e4;
     border-radius: 4px;
 }
+
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #111827; /* Dark background */
+    background-color: #111827;
 }
+
 .interval-button {
     transition: all 0.1s ease;
+    font-size: 100%;
 }
+
 .interval-button:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.select-interval-button {
+    border-color: #111827;
+    border-width: 0.15em;
 }
